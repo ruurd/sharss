@@ -1,0 +1,28 @@
+# encoding: UTF-8
+#============================================================================
+# Copyright (c) Bureau Pels.  All Rights Reserved.
+#============================================================================
+nl:
+  simple_form:
+    labels:
+      announcement:
+        starts_at: 'Start op'
+        ends_before: 'Eindigt voor'
+        locale: 'Landinstelling'
+        message: 'Mededeling'
+        level: 'Niveau'
+      user:
+        email: 'E-mail'
+        first_name: 'Voornaam'
+        last_name: 'Achternaam'
+        gender: 'Geslacht'
+        phone: 'Telefoon'
+        mobile: 'Mobiel'
+        im: 'IM'
+        is_admin: 'Administrator'
+    hints:
+      announcement:
+    placeholders:
+      announcement:
+        message: 'De mededeling die getoond wordt'
+        level: 'Het niveau'

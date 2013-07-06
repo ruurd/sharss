@@ -1,0 +1,36 @@
+# ----------------------------------------------------------------------------
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  min_messages: ERROR
+  pool: 5
+  timeout: 5000
+  host: 127.0.0.1
+  database: sharss_dev
+  username: sharss
+  paasword: tj7Rnx6livhzZq
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  min_messages: ERROR
+  pool: 5
+  timeout: 5000
+  host: 127.0.0.1
+  database: sharss_test
+  username: sharss
+  paasword: tj7Rnx6livhzZq
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  min_messages: ERROR
+  pool: 5
+  timeout: 5000
+  host: 127.0.0.1
+  database: sharss
+  username: sharss
+  paasword: tj7Rnx6livhzZq

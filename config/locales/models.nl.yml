@@ -1,0 +1,9 @@
+# encoding: UTF-8
+#============================================================================
+# Copyright (c) Bureau Pels.  All Rights Reserved.
+#============================================================================
+nl:
+  activerecord:
+    models:
+      announcement: 'Mededeling'
+      user: 'Gebruiker'

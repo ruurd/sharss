@@ -1,0 +1,28 @@
+# encoding: UTF-8
+#============================================================================
+# Copyright (c) Bureau Pels.  All Rights Reserved.
+#============================================================================
+en:
+  simple_form:
+    labels:
+      announcement:
+        starts_at: 'Starts at'
+        ends_before: 'Ends before'
+        locale: 'Locale'
+        message: 'Message'
+        level: 'Level'
+      user:
+        email: 'E-mail'
+        firstname: 'First name'
+        lastname: 'Last name'
+        gender: 'Gender'
+        phone: 'Phone'
+        mobile: 'Mobile'
+        im: 'IM'
+        is_admin: 'Administrator'
+    hints:
+      announcement:
+    placeholders:
+      announcement:
+        message: 'The message you want to show'
+        level: 'The level'

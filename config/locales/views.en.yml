@@ -1,0 +1,34 @@
+# encoding: UTF-8
+#============================================================================
+# Copyright (c) Bureau Pels.  All Rights Reserved.
+#============================================================================
+en:
+  about:
+    index:
+      about: 'About'
+      about_application: 'Share links with others by generating an RSS feed from them.'
+      telephone: 'Telephone'
+      email: 'Email'
+      inforequest: 'Request for information'
+  users:
+    index:
+      first_name: 'First name'
+      last_name: 'Last name'
+      full_name: 'Naam'
+      email: 'E-mail'
+      gender: 'Gender'
+      phone: 'Phone'
+      mobile: 'Mobile'
+      im: 'IM'
+    show:
+      first_name: 'First name'
+      last_name: 'Last name'
+      email: 'E-mail'
+      gender: 'Gender'
+      phone: 'Phone'
+      mobile: 'Mobile'
+      im: 'IM'
+  welcome:
+    index:
+      application_name: 'ShaRSS'
+      about_application: 'Share links with others by generating an RSS feed from them.'

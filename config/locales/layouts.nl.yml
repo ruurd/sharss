@@ -1,0 +1,22 @@
+# encoding: UTF-8
+#============================================================================
+# Copyright (c) Bureau Pels.  All Rights Reserved.
+#============================================================================
+nl:
+  layouts:
+    application:
+      adminmenu:
+        adminmenu: 'Beheer'
+        announcements: 'Mededelingen'
+        load_books: 'Haal boeken op'
+        users: 'Gebruikers'
+      all_rights_reserved: 'All rechten voorbehouden'
+      mainmenu:
+        books_ruby_on_rails: 'Boeken over Ruby on RAILS'
+        mainmenu: 'Hoofdmenu'
+      usermenu:
+        admin: 'Onderhoud'
+        sidekiq: 'Sidekiq'
+        about: 'Over'
+        logout: 'Uitloggen'
+        login: 'Inloggen'

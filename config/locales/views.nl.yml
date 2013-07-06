@@ -1,0 +1,59 @@
+# encoding: UTF-8
+#============================================================================
+# Copyright (c) Bureau Pels.  All Rights Reserved.
+#============================================================================
+nl:
+  about:
+    index:
+      about: 'Over'
+      about_book_multiplier: 'Books Multiplier is een assessment opdracht van Advidi'
+      telephone: 'Telefoon'
+      email: 'Email'
+  announcements:
+    index:
+      announcements: 'Aankondigingen'
+      starts_at: 'Start op'
+      ends_before: 'Eindigt voor'
+      locale: 'Landinstelling'
+      message: 'Mededeling'
+      level: 'Niveau'
+    show:
+      announcements: 'Aankondigingen'
+      starts_at: 'Start op'
+      ends_before: 'Eindigt voor'
+      locale: 'Landinstelling'
+      message: 'Mededeling'
+      level: 'Niveau'
+  books:
+    index:
+      author: 'Auteur'
+      title: 'Titel'
+      thumbnail: 'Postzegelplaatje'
+    show:
+      author: 'Auteur'
+      title: 'Titel'
+      thumbnail: 'Postzegelplaatje'
+  users:
+    index:
+      first_name: 'Voornaam'
+      last_name: 'Achternaam'
+      email: 'E-mail'
+      gender: 'Geslacht'
+      phone: 'Telefoon'
+      mobile: 'Mobiel'
+      im: 'IM'
+      is_admin: 'Beheerder'
+    show:
+      first_name: 'Voornaam'
+      last_name: 'Achternaam'
+      full_name: 'Naam'
+      email: 'E-mail'
+      gender: 'Geslacht'
+      phone: 'Telefoon'
+      mobile: 'Mobiel'
+      im: 'IM'
+      is_admin: 'Beheerder'
+  welcome:
+    index:
+      about_book_multiplier: 'Books Multiplier is een assessment opdracht van Advidi'
+      announcements: 'Aankondigingen'
