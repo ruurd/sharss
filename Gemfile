@@ -1,9 +1,8 @@
 # ----------------------------------------------------------------------------
-ruby '2.0.0'
 source 'https://rubygems.org'
 
 # Basics
-gem 'rails', '4.0.0'
+gem 'rails', '>= 4'
 gem 'turbolinks'
 gem 'jbuilder'
 
@@ -18,8 +17,8 @@ gem 'rails_config'
 gem 'pg'
 
 # Users
-gem 'devise', branch: 'rails4'
-gem 'cancan'
+gem 'devise'
+gem 'pundit'
 
 # Looks & views
 gem 'haml'
@@ -32,15 +31,30 @@ gem 'therubyracer'
 gem 'kaminari'
 gem 'kaminari-bootstrap'
 
+group :development do
+  gem 'spring'
+  gem 'listen'
+  gem 'quiet_assets'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'kwalify'
+  gem 'bullet'
+  gem 'rubocop', github: 'bbatsov/rubocop'
+end
+
+group :test, :development do
+  gem 'guard'
+  gem 'guard-rails'
+  gem 'guard-test'
+  gem 'guard-rubocop'
+  gem 'terminal-notifier-guard'
+  gem 'selenium-webdriver'
+  gem 'cucumber'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+end
+
 group :doc do
   gem 'sdoc', require: false
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development

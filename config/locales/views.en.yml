@@ -6,15 +6,14 @@ en:
   about:
     index:
       about: 'About'
-      about_application: 'Share links with others by generating an RSS feed from them.'
       telephone: 'Telephone'
       email: 'Email'
-      inforequest: 'Request for information'
+      inforequest: 'Request for information about ShaRSS'
   users:
     index:
       first_name: 'First name'
       last_name: 'Last name'
-      full_name: 'Naam'
+      full_name: 'Full name'
       email: 'E-mail'
       gender: 'Gender'
       phone: 'Phone'
@@ -30,5 +29,3 @@ en:
       im: 'IM'
   welcome:
     index:
-      application_name: 'ShaRSS'
-      about_application: 'Share links with others by generating an RSS feed from them.'

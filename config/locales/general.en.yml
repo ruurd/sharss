@@ -4,6 +4,7 @@
 #============================================================================
 en:
   application_name: 'ShaRSS'
+  about_application: 'Share links with others by generating an RSS feed from them.'
   bureau_pels: 'Bureau Pels'
   bureau_pels_street: 'Boogerd&nbsp;1'
   bureau_pels_zipcode: '1791&nbsp;GW'

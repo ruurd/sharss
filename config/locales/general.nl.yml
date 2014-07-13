@@ -4,6 +4,7 @@
 #============================================================================
 nl:
   application_name: 'ShaRSS'
+  about_application: 'Deel links met anderen met behulp van een RSS feed.'
   bureau_pels: 'Bureau Pels'
   bureau_pels_street: 'Boogerd&nbsp;1'
   bureau_pels_zipcode: '1791&nbsp;GW'
